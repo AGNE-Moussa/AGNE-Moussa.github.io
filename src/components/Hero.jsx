@@ -22,7 +22,7 @@ export default function Hero() {
           <motion.p className="hero-hello" {...fade(0.2)}>
             Bonjour, je m'appelle {PROFILE.name}.
           </motion.p>
-          <motion.h1 {...fade(0.3)}>Des outils web pour la recherche et la santé numérique</motion.h1>
+          <motion.h1 {...fade(0.3)}>Des applications web fiables, du back-end à l'interface</motion.h1>
           <motion.p className="hero-role" {...fade(0.45)}>
             Ingénieur de recherche au <strong>CNRS</strong> et développeur full stack. Je construis des applications
             fiables avec Python, Symfony et React, et j'intègre l'IA quand elle sert vraiment l'usage.
