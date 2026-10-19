@@ -4,6 +4,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Timeline from './components/Timeline'
+import Certifications from './components/Certifications'
 import Contact from './components/Contact'
 import { PROFILE } from './data'
 
@@ -18,6 +19,7 @@ export default function App() {
         <Projects />
         <Skills />
         <Timeline />
+        <Certifications />
         <Contact />
       </main>
       <footer className="footer">

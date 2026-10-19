@@ -18,6 +18,7 @@ export const NAV = [
   { id: 'projets', label: 'Projets' },
   { id: 'competences', label: 'Compétences' },
   { id: 'parcours', label: 'Parcours' },
+  { id: 'certifications', label: 'Certifications' },
   { id: 'contact', label: 'Contact' },
 ]
 
@@ -129,5 +130,33 @@ export const TIMELINE = [
     title: 'Licence Réseaux informatiques et télécommunications',
     org: 'ESTM, Dakar',
     text: 'Mention Bien.',
+  },
+]
+
+// Liens directs vers les certificats (sans la redirection LinkedIn).
+export const CERTIFICATIONS = [
+  {
+    title: 'AI Agents Fundamentals',
+    issuer: 'Hugging Face',
+    date: 'Octobre 2026',
+    url: 'https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/MoussaAgne/2026-10-15.png',
+  },
+  {
+    title: 'AI Fluency: Framework and Foundations',
+    issuer: 'Anthropic, Claude Academy',
+    date: 'Octobre 2026',
+    url: 'https://academy.claude.com/verify/2cfd8418693ea3922b93b264a9ddbe18',
+  },
+  {
+    title: 'Claude Code 101',
+    issuer: 'Anthropic, Claude Academy',
+    date: 'Septembre 2026',
+    url: 'https://academy.claude.com/verify/e6eb4b4a9fd16d52e35717718d6dfd99',
+  },
+  {
+    title: 'Claude 101',
+    issuer: 'Anthropic, Claude Academy',
+    date: 'Septembre 2026',
+    url: 'https://academy.claude.com/verify/3246712a19b2e511aa905f97135c46fe',
   },
 ]
