@@ -98,7 +98,21 @@ export const SKILLS = [
   { group: 'Données', items: ['PostgreSQL', 'MySQL', 'MongoDB'] },
   { group: 'DevOps et outils', items: ['Docker', 'Docker Compose', 'GitHub Actions', 'GitLab CI', 'Git', 'Linux', 'Notion'] },
   { group: 'IA et calcul scientifique', items: ['LLM', 'RAG', 'LangChain', 'YOLOv8', 'MATLAB'] },
-  { group: 'Méthodes', items: ['Tests automatisés', 'Revue de code', 'Claude Code', 'Conventional Commits'] },
+  { group: 'Méthodes', items: ['Tests automatisés', 'Revue de code', 'Conventional Commits'] },
+  // desc : phrase affichée sous le titre (optionnelle) ; wide : le groupe occupe toute la largeur de la grille
+  {
+    group: 'Développement assisté par IA',
+    desc: 'Conception de workflows Claude Code qui automatisent la revue de code, les tests et les contrôles qualité à chaque commit.',
+    items: [
+      'CLAUDE.md et AGENTS.md',
+      'Subagents (revue, tests, exploration)',
+      'Skills réutilisables',
+      'Hooks (lint, tests, formatage)',
+      'Git et Docker',
+      '3 certifications Anthropic',
+    ],
+    wide: true,
+  },
 ]
 
 export const TIMELINE = [

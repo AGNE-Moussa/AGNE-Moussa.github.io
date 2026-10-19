@@ -9,8 +9,9 @@ export default function Skills() {
         <Reveal as="h2">Compétences</Reveal>
         <div className="skills">
           {SKILLS.map((g, gi) => (
-            <Reveal key={g.group} delay={gi * 0.06} className="skill-group">
+            <Reveal key={g.group} delay={gi * 0.06} className={`skill-group ${g.wide ? 'wide' : ''}`}>
               <h3>{g.group}</h3>
+              {g.desc && <p className="skill-desc">{g.desc}</p>}
               <ul>
                 {g.items.map((it, i) => (
                   <motion.li

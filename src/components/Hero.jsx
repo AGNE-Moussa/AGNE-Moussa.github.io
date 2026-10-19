@@ -26,7 +26,8 @@ export default function Hero() {
           <motion.h1 {...fade(0.3)}>Des applications web fiables, du back-end à l'interface</motion.h1>
           <motion.p className="hero-role" {...fade(0.45)}>
             Ingénieur de recherche au <strong>CNRS</strong> et développeur full stack. Je construis des applications
-            fiables avec Python, Symfony et React, et j'intègre l'IA quand elle sert vraiment l'usage.
+            fiables avec Python, Symfony et React, et je conçois des workflows de développement assistés par agents IA
+            qui automatisent la revue, les tests et les contrôles qualité.
           </motion.p>
           <motion.div className="hero-actions" {...fade(0.6)}>
             <a className="btn primary" href="#projets">
