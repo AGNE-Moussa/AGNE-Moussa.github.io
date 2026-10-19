@@ -5,6 +5,8 @@ export const PROFILE = {
   email: 'agnemoussa019@gmail.com',
   github: 'https://github.com/AGNE-Moussa',
   linkedin: 'https://www.linkedin.com/in/moussa-agne',
+  // PDF généré depuis cv/cv.html : la commande de régénération est en tête de ce fichier HTML.
+  cv: '/CV-Moussa-Agne.pdf',
 }
 
 // Envoi du formulaire de contact via FormSubmit (https://formsubmit.co).

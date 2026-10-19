@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Download } from 'lucide-react'
 import Walker from './Walker'
 import CodeWindow from './CodeWindow'
 import { GithubIcon, LinkedinIcon } from './Icons'
@@ -33,6 +34,9 @@ export default function Hero() {
             </a>
             <a className="btn ghost" href="#contact">
               Me contacter
+            </a>
+            <a className="btn ghost" href={PROFILE.cv} download>
+              <Download size={18} /> Mon CV
             </a>
             <a className="icon-btn" href={PROFILE.github} target="_blank" rel="noreferrer" aria-label="GitHub">
               <GithubIcon />
