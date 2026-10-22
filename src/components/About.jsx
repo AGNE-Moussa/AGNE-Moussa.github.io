@@ -3,7 +3,7 @@ import { NOW } from '../data'
 
 export default function About() {
   return (
-    <section className="block light" id="apropos">
+    <section className="block" id="apropos">
       <div className="wrap">
         <Reveal as="h2">À propos</Reveal>
         <div className="two">

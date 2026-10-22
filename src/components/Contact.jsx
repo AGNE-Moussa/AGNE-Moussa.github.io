@@ -97,11 +97,11 @@ export default function Contact() {
   )
 
   return (
-    <section className="block dark contact" id="contact">
+    <section className="block contact" id="contact">
       <div className="wrap contact-grid">
         <div>
           <Reveal as="h2">Contact</Reveal>
-          <Reveal as="p" className="lead on-dark" delay={0.05}>
+          <Reveal as="p" className="lead" delay={0.05}>
             Une question sur un projet, une collaboration autour d'un outil de recherche, une opportunité ? Écrivez-moi
             directement ici, je vous réponds par e-mail.
           </Reveal>

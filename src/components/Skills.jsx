@@ -4,7 +4,7 @@ import { SKILLS } from '../data'
 
 export default function Skills() {
   return (
-    <section className="block light" id="competences">
+    <section className="block" id="competences">
       <div className="wrap">
         <Reveal as="h2">Compétences</Reveal>
         <div className="skills">

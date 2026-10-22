@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
-import { Menu, X } from 'lucide-react'
+import { Download, Menu, X } from 'lucide-react'
 import { NAV, PROFILE } from '../data'
 
 export default function Nav() {
@@ -33,7 +33,10 @@ export default function Nav() {
       <motion.div className="nav-progress" style={{ scaleX: progress }} />
       <div className="wrap nav-inner">
         <a className="brand" href="#top" onClick={() => setOpen(false)}>
-          {PROFILE.name}
+          Moussa <span>Agne</span>
+        </a>
+        <a className="btn cv nav-cv" href={PROFILE.cv} download>
+          <span className="cv-long">Télécharger le</span>CV <Download size={16} />
         </a>
         <button
           className="nav-toggle"

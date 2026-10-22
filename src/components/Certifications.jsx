@@ -4,7 +4,7 @@ import { CERTIFICATIONS } from '../data'
 
 export default function Certifications() {
   return (
-    <section className="block light" id="certifications">
+    <section className="block" id="certifications">
       <div className="wrap">
         <Reveal as="h2">Certifications</Reveal>
         <ul className="certs">

@@ -31,7 +31,7 @@ export default function Projects() {
   const list = PROJECTS.filter((p) => filter === 'Tous' || p.tags.includes(filter))
 
   return (
-    <section className="block dark" id="projets">
+    <section className="block alt" id="projets">
       <div className="wrap">
         <Reveal as="h2">Projets</Reveal>
 
@@ -47,7 +47,7 @@ export default function Projects() {
               ))}
             </ul>
             <p className="featured-ai">{FEATURED.ai}</p>
-            <ul className="chips on-dark" aria-label="Technologies">
+            <ul className="chips" aria-label="Technologies">
               {FEATURED.stack.map((t) => (
                 <li key={t}>{t}</li>
               ))}
@@ -85,7 +85,7 @@ export default function Projects() {
                   <div className="card">
                     <h3>{p.name}</h3>
                     <p>{p.desc}</p>
-                    <ul className="chips on-dark small">
+                    <ul className="chips small">
                       {p.stack.map((t) => (
                         <li key={t}>{t}</li>
                       ))}

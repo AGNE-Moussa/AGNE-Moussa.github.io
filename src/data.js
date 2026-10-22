@@ -7,6 +7,7 @@ export const PROFILE = {
   linkedin: 'https://www.linkedin.com/in/moussa-agne',
   // PDF généré depuis cv/cv.html : la commande de régénération est en tête de ce fichier HTML.
   cv: '/CV-Moussa-Agne.pdf',
+  photo: '/photo-moussa.jpg',
 }
 
 // Envoi du formulaire de contact via FormSubmit (https://formsubmit.co).
@@ -175,4 +176,15 @@ export const CERTIFICATIONS = [
     date: 'Septembre 2026',
     url: 'https://academy.claude.com/verify/3246712a19b2e511aa905f97135c46fe',
   },
+]
+
+// Rôles qui défilent dans l'accroche de l'accueil (effet machine à écrire).
+export const ROLES = ['développeur full stack', 'ingénieur de recherche au CNRS', 'adepte du développement assisté par IA']
+
+// Bande de chiffres sous l'accueil : les projets et certifications se recomptent seuls.
+export const STATS = [
+  { value: 'Bac+5', label: 'Master Informatique' },
+  { value: '3', label: 'expériences recherche et entreprise' },
+  { value: String(PROJECTS.length + 1), label: 'projets présentés' },
+  { value: String(CERTIFICATIONS.length), label: 'certifications' },
 ]

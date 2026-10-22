@@ -9,7 +9,7 @@ export default function Timeline() {
   const grow = useSpring(scrollYProgress, { stiffness: 90, damping: 25 })
 
   return (
-    <section className="block light alt" id="parcours">
+    <section className="block alt" id="parcours">
       <div className="wrap">
         <Reveal as="h2">Parcours</Reveal>
         <div className="tl" ref={ref}>
