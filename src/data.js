@@ -110,7 +110,7 @@ export const SKILLS = [
       'Skills réutilisables',
       'Hooks (lint, tests, formatage)',
       'Git et Docker',
-      '3 certifications Anthropic',
+      '4 certifications Anthropic',
     ],
     wide: true,
   },
@@ -152,6 +152,12 @@ export const TIMELINE = [
 
 // Liens directs vers les certificats (sans la redirection LinkedIn).
 export const CERTIFICATIONS = [
+  {
+    title: 'Claude Code in Action',
+    issuer: 'Anthropic, Claude Academy',
+    date: 'Octobre 2026',
+    url: 'https://academy.claude.com/verify/411203b60da752436ddf109c7b8dd50c',
+  },
   {
     title: 'AI Agents Fundamentals',
     issuer: 'Hugging Face',
