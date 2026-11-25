@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Mail } from 'lucide-react'
 import Typewriter from './Typewriter'
-import { GithubIcon, LinkedinIcon } from './Icons'
+import { GitlabIcon, LinkedinIcon } from './Icons'
 import { PROFILE, ROLES, STATS } from '../data'
 
 const fade = (d) => ({
@@ -34,8 +34,8 @@ export default function Hero() {
                 de développement assistés par agents IA qui automatisent la revue, les tests et les contrôles qualité.
               </motion.p>
               <motion.div className="hero-social" {...fade(0.6)}>
-                <a href={PROFILE.github} target="_blank" rel="noreferrer" aria-label="GitHub">
-                  <GithubIcon />
+                <a href={PROFILE.gitlab} target="_blank" rel="noreferrer" aria-label="GitLab">
+                  <GitlabIcon />
                 </a>
                 <a href={PROFILE.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
                   <LinkedinIcon />

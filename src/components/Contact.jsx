@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Check, CircleAlert, Copy, LoaderCircle, Send } from 'lucide-react'
 import Reveal from './Reveal'
-import { GithubIcon, LinkedinIcon } from './Icons'
+import { GitlabIcon, LinkedinIcon } from './Icons'
 import { FORM_ENDPOINT, PROFILE } from '../data'
 
 const EMPTY = { name: '', email: '', subject: '', message: '', _honey: '' }
@@ -123,8 +123,8 @@ export default function Contact() {
               <a className="icon-btn" href={PROFILE.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
                 <LinkedinIcon />
               </a>
-              <a className="icon-btn" href={PROFILE.github} target="_blank" rel="noreferrer" aria-label="GitHub">
-                <GithubIcon />
+              <a className="icon-btn" href={PROFILE.gitlab} target="_blank" rel="noreferrer" aria-label="GitLab">
+                <GitlabIcon />
               </a>
             </div>
           </Reveal>

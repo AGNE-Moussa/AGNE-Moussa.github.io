@@ -3,7 +3,7 @@
 export const PROFILE = {
   name: 'Moussa Agne',
   email: 'agnemoussa019@gmail.com',
-  github: 'https://github.com/AGNE-Moussa',
+  gitlab: 'https://gitlab.com/AGNE-moussa',
   linkedin: 'https://www.linkedin.com/in/moussa-agne',
   // PDF généré depuis cv/cv.html : la commande de régénération est en tête de ce fichier HTML.
   cv: '/CV-Moussa-Agne.pdf',
@@ -40,7 +40,7 @@ export const NOW = {
 export const FEATURED = {
   name: 'LabTrack',
   kind: "Gestion d'études de recherche",
-  url: 'https://github.com/AGNE-Moussa/labtrack',
+  url: 'https://gitlab.com/AGNE-moussa/labtrack',
   intro:
     "Une application web où chaque chercheur crée, suit, recherche et filtre ses projets d'étude, avec une isolation stricte des données entre utilisateurs.",
   ai: "Développée avec Claude Code comme binôme de programmation : conventions de projet, permissions encadrées, sous-agents de revue de code et d'écriture de tests, une branche par fonctionnalité. L'agent écrivait le code ; je gardais l'architecture et la validation.",
@@ -48,9 +48,9 @@ export const FEATURED = {
     'API Django REST Framework sécurisée par JWT, avec renouvellement automatique du token et limitation des inscriptions.',
     "Recherche plein texte, filtres, tri et pagination, conservés dans l'URL.",
     'Interface React et TypeScript, responsive, avec tableau de bord par statut.',
-    '44 tests backend, intégration continue GitHub Actions, environnement Docker Compose.',
+    '44 tests backend, intégration continue GitLab CI, environnement Docker Compose.',
   ],
-  stack: ['Django REST Framework', 'React', 'TypeScript', 'PostgreSQL', 'Docker', 'GitHub Actions'],
+  stack: ['Django REST Framework', 'React', 'TypeScript', 'PostgreSQL', 'Docker', 'GitLab CI'],
 }
 
 export const PROJECTS = [
@@ -66,28 +66,28 @@ export const PROJECTS = [
     desc: 'Gestion des produits et des commandes répartie en services indépendants, avec découverte de services et répartition de charge.',
     stack: ['Java', 'Spring Boot', 'Spring Cloud', 'Eureka'],
     tags: ['Java'],
-    url: 'https://github.com/AGNE-Moussa/Developpement-d-application-e-commerce-avec-Spring-Boot',
+    url: 'https://gitlab.com/AGNE-moussa/Developpement-d-application-e-commerce-avec-Spring-Boot',
   },
   {
     name: 'API bancaire',
     desc: "API REST de gestion de comptes et d'opérations bancaires, organisée en couches : contrôleurs, services, accès aux données.",
     stack: ['Java', 'Spring Boot', 'SQL'],
     tags: ['Java'],
-    url: 'https://github.com/AGNE-Moussa/Developpement-d-API-RESTful-pour-un-systeme-bancaire-avec-Java-Spring-Boot',
+    url: 'https://gitlab.com/AGNE-moussa/Developpement-d-API-RESTful-pour-un-systeme-bancaire-avec-Java-Spring-Boot',
   },
   {
     name: 'Application CRUD avec FastAPI',
     desc: 'API REST en FastAPI associée à une interface web légère en HTML et JavaScript.',
     stack: ['Python', 'FastAPI', 'JavaScript'],
     tags: ['Python'],
-    url: 'https://github.com/AGNE-Moussa/Application-CRUD-avec-FastAPI',
+    url: 'https://gitlab.com/AGNE-moussa/Application-CRUD-avec-FastAPI',
   },
   {
     name: 'Calculateur de checksum conteneurisé',
     desc: "Application Flask qui calcule l'empreinte d'une chaîne de caractères selon l'algorithme choisi, livrée sous forme de conteneur Docker.",
     stack: ['Python', 'Flask', 'Docker'],
     tags: ['Python', 'DevOps'],
-    url: 'https://github.com/AGNE-Moussa/Dockerisation-d-une-Application-Python-Flask-Checksum-Calculator',
+    url: 'https://gitlab.com/AGNE-moussa/Dockerisation-d-une-Application-Python-Flask-Checksum-Calculator',
   },
 ]
 

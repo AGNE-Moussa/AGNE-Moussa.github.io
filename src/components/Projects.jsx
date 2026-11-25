@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { ArrowUpRight, Lock } from 'lucide-react'
 import Reveal from './Reveal'
 import Terminal from './Terminal'
-import { GithubIcon } from './Icons'
+import { GitlabIcon } from './Icons'
 import { FEATURED, FILTERS, PROJECTS } from '../data'
 
 function TiltCard({ children }) {
@@ -53,7 +53,7 @@ export default function Projects() {
               ))}
             </ul>
             <a className="btn primary" href={FEATURED.url} target="_blank" rel="noreferrer">
-              <GithubIcon /> Voir le code
+              <GitlabIcon /> Voir le code
             </a>
           </div>
           <div className="featured-visual">
