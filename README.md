@@ -1,6 +1,6 @@
 # Portfolio de Moussa Agne
 
-[![pipeline](https://gitlab.com/AGNE-moussa/AGNE-Moussa-github-io/badges/main/pipeline.svg)](https://gitlab.com/AGNE-moussa/AGNE-Moussa-github-io/-/pipelines)
+[![pipeline](https://gitlab.com/AGNE-moussa/portfolio/badges/main/pipeline.svg)](https://gitlab.com/AGNE-moussa/portfolio/-/pipelines)
 ![React](https://img.shields.io/badge/React-19-61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF)
 

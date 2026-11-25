@@ -66,28 +66,28 @@ export const PROJECTS = [
     desc: 'Gestion des produits et des commandes répartie en services indépendants, avec découverte de services et répartition de charge.',
     stack: ['Java', 'Spring Boot', 'Spring Cloud', 'Eureka'],
     tags: ['Java'],
-    url: 'https://gitlab.com/AGNE-moussa/Developpement-d-application-e-commerce-avec-Spring-Boot',
+    url: 'https://gitlab.com/AGNE-moussa/spring-cloud-ecommerce',
   },
   {
     name: 'API bancaire',
     desc: "API REST de gestion de comptes et d'opérations bancaires, organisée en couches : contrôleurs, services, accès aux données.",
     stack: ['Java', 'Spring Boot', 'SQL'],
     tags: ['Java'],
-    url: 'https://gitlab.com/AGNE-moussa/Developpement-d-API-RESTful-pour-un-systeme-bancaire-avec-Java-Spring-Boot',
+    url: 'https://gitlab.com/AGNE-moussa/spring-boot-api-bancaire',
   },
   {
     name: 'Application CRUD avec FastAPI',
     desc: 'API REST en FastAPI associée à une interface web légère en HTML et JavaScript.',
     stack: ['Python', 'FastAPI', 'JavaScript'],
     tags: ['Python'],
-    url: 'https://gitlab.com/AGNE-moussa/Application-CRUD-avec-FastAPI',
+    url: 'https://gitlab.com/AGNE-moussa/fastapi-users-api',
   },
   {
     name: 'Calculateur de checksum conteneurisé',
     desc: "Application Flask qui calcule l'empreinte d'une chaîne de caractères selon l'algorithme choisi, livrée sous forme de conteneur Docker.",
     stack: ['Python', 'Flask', 'Docker'],
     tags: ['Python', 'DevOps'],
-    url: 'https://gitlab.com/AGNE-moussa/Dockerisation-d-une-Application-Python-Flask-Checksum-Calculator',
+    url: 'https://gitlab.com/AGNE-moussa/flask-docker-checksum',
   },
 ]
 
